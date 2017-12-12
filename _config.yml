@@ -1,0 +1,31 @@
+name: Jekyll Themes
+url: http://jekylltheme.org
+description: Jekyll themes
+
+permalink: /themes/:title/
+
+gems: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+encoding: utf-8
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - .travis/*
+  - .travis.yml
+  - .idea/*
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - LICENSE
